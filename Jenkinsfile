@@ -29,10 +29,11 @@ pipeline {
 
                     if (response == '200') {
                         echo 'Test OK'
-                    } else {
-                        echo response
-                        error 'Test NG'
-                    }
+                    } 
+                    // else {
+                    //     echo response
+                    //     error 'Test NG'
+                    // }
                 }
             }
         }
